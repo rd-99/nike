@@ -1,7 +1,7 @@
 import { headerLogo } from "../assets/images";
 import { navLinks } from "../constants";
 import { hamburger } from "../assets/icons";
-export default Nav = () => {
+export const Nav = () => {
   return (
     <header className="py-8 px-10 z-10 w-full absolute">
       <nav className="flex justify-between items-center max-container">

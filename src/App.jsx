@@ -7,7 +7,7 @@ import {
   CustomerReviews,
 } from "./sections/index";
 
-import  Nav  from "./components/nav";
+import { Nav } from "./components/Nav";
 const App = () => {
   return (
     <main className="relative border-indigo-50">
@@ -15,7 +15,7 @@ const App = () => {
       <section className="xl:padding-l wide:padding-r padding-b" id="Hero">
         <Hero />
       </section>
-      <section className="padding" >
+      <section className="padding">
         <PopularProducts />
       </section>
       <section className="padding-x py-10">
