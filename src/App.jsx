@@ -4,11 +4,10 @@ import {
   PopularProducts,
   Services,
   SpecialOffer,
-  Subscribe,
   CustomerReviews,
 } from "./sections/index";
 
-import { Nav } from "./components/nav";
+import  Nav  from "./components/nav";
 const App = () => {
   return (
     <main className="relative border-indigo-50">
